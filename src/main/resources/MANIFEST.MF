@@ -1,0 +1,22 @@
+Bundle-Name: Ha-VIS Middleware LLRP Reader Service
+Bundle-SymbolicName: havis.middleware.reader.llrp-service
+Bundle-Version: 2.6.1
+Implementation-Version: 2.6
+Bundle-ManifestVersion: 2
+Bundle-Vendor: HARTING IT_SD
+Import-Package: 
+ havis.llrpservice.data.message,
+ havis.llrpservice.data.message.parameter,
+ havis.llrpservice.data.message.parameter.serializer,
+ havis.llrpservice.data.message.serializer,
+ havis.middleware.ale.base.exception,
+ havis.middleware.utils.data,
+ havis.middleware.utils.threading
+Export-Package: 
+ havis.middleware.reader.llrp.client,
+ havis.middleware.reader.llrp.connection,
+ havis.middleware.reader.llrp.service,
+ havis.middleware.reader.llrp.service.event,
+ havis.middleware.reader.llrp.service.exception,
+ havis.middleware.reader.llrp.util
+
